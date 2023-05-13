@@ -67,6 +67,13 @@ header{
     padding-inline: 2rem;
 }
 /*padding-inline --> padding al inicio y al final (izq y drcha)  */
+
+.div-img{
+    color: var(--type-water);
+    /* color: #0097DC; */
+    font-size: 1.7rem;
+}
+
 .img{
     height: 15vh;
 }
@@ -103,7 +110,7 @@ main{
 /* max-width: 1000px --> q tenga un ancho máx y no crezca por mucho q crezca la pantalla
 margin: 0 auto --> 0 para arriba y abajo y auto para q se centre*/
 
-.all-pokemons{
+.all-pokemon{
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -128,7 +135,7 @@ margin: 0 auto --> 0 para arriba y abajo y auto para q se centre*/
 /* padding-block --> arriba y abajo
 isolation: isolate --> todos los z-index q se pongan en sus elementos hijos van a alejarse como mucho al nivel de la propia tarjeta, se van a ir al fondo de su contenedor padre como mucho*/
 
-.pokemon-id-back{
+/* .pokemon-id-back{
     position: absolute;
     top: 1rem;
     left: 50%;
@@ -137,14 +144,18 @@ isolation: isolate --> todos los z-index q se pongan en sus elementos hijos van 
     font-weight: 800;
     color: var(--clr-gray);
     z-index: -1;
-}
+} */
 /* left: 50%;
 transform: translate(-50%) --> centra el número del id en el centro de la tarjeta horizontalmente*/
 
 .pokemon-img{
+    background-image: url('./blob.svg');
     padding-inline: 1rem;
     display: flex;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .pokemon-img img{
