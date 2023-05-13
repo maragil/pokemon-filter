@@ -48,10 +48,12 @@ button{
 
 body{
     min-height: 100vh;
-    background-color: var(--clr-gray);
+    background-color: #ced7ef;
 }
 
 header{
+    background-color: #7093f0;
+    /* background-color: #ced7ef; */
     padding-block: 1rem;
     box-shadow: 0 0 2rem -1rem rgba(0, 0 ,0, 0.5);
 }
@@ -69,9 +71,12 @@ header{
 /*padding-inline --> padding al inicio y al final (izq y drcha)  */
 
 .div-img{
-    color: var(--type-water);
+    color: #4b2884;
     /* color: #0097DC; */
     font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 1.8rem;
 }
 
 .img{
@@ -82,6 +87,8 @@ header{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     gap: 0.5rem;
 }
 
@@ -124,7 +131,7 @@ margin: 0 auto --> 0 para arriba y abajo y auto para q se centre*/
 
 .pokemon{
     border-radius: 1rem;
-    background-color: var(--clr-white);
+    background-color: #a7bbf0;
     box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, 0.25);
     padding-block: 1rem ;
     text-transform: uppercase;
@@ -172,6 +179,7 @@ max-width: 6rem --> para que sea más pequeña*/
     padding-inline: 1rem;
     align-items: center;
     text-align: center;
+    margin-top: 0.5rem;
 }
 
 .container-name{
@@ -184,7 +192,7 @@ max-width: 6rem --> para que sea más pequeña*/
 /* column-gap --> aplica el gap mientas q sean columnas, cuando se colocan en filas no lo aplica */
 
 .pokemon-id{
-    background-color: var(--clr-gray);
+    background-color: rgb(112, 147, 240);
     padding: 0.25rem 0.5rem;
     border-radius: 100vmax;
     font-size: 0.75rem;
@@ -193,6 +201,7 @@ max-width: 6rem --> para que sea más pequeña*/
 
 .pokemon-name{
     font-size: 1.4rem;
+    color: #4b2884;
 }
 
 .pokemon-types{
@@ -216,7 +225,7 @@ max-width: 6rem --> para que sea más pequeña*/
 }
 
 .stat{
-    background-color: var(--clr-gray);
+    background-color: rgb(112, 147, 240);
     padding: 0.25rem 0.5rem;
     border-radius: 100vmax;
 }
