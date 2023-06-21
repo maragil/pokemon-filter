@@ -30,7 +30,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--clr-black);
     font-family: 'Rubik', sans-serif;
 }
 
@@ -319,4 +318,36 @@ max-width: 6rem --> para que sea más pequeña*/
 .fairy {
     background-color: var(--type-fairy);
     color: var(--clr-black);
+}
+
+.footer{
+    margin-top: 15px;
+    height: 8vh;
+    width: 100%;
+    background-color: #7093f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 50px;
+}
+
+.footer-logo{
+    text-decoration: none;
+    color: rgb(75, 40, 132);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer-ul{
+    list-style: none;
+}
+
+.footer-icon{
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.fab{
+    color: rgb(75, 40, 132);
+    font-size: 40px;
 }
