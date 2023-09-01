@@ -1,16 +1,18 @@
 # Buscador de <a href="http://pokemon.maragil.com//" target="_blank" rel="noreferrer"><img src="images/hero.png" alt="html5" width="120" height="50"/></a>
 
+Con esta aplicación web, desarrollada con [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript), puedes buscar y visualizar Pokémon en función de su tipo (por ejemplo: fuego, agua, planta, etc.)
+
 ## 	🚀 Instalación.
 
 Para poder ejecutar y utilizar este proyecto, sigue los siguientes pasos:
 
 1. Clona este repositorio en tu máquina local.
    ```bash
-   git clone https://github.com/tuusuario/calculator-js.git
+   git clone https://github.com/tuusuario/pokemon-filter.git
    ```
 2. Navega a la carpeta del proyecto.
    ```bash
-   cd calculator-js
+   cd pokemon-filter
    ```
 3. Inicia la aplicación abriendo el `index.html` en tu navegador.
 
@@ -28,6 +30,6 @@ Este proyecto ha sido creado utilizando una combinación de herramientas y tecno
 </p>
 
 ## 📬 CONTACTO
-¡Espero que te haya gustado esta aplicación! 💚
+¿Has encontrado todos tus Pokémon favoritos? ¡Espero que te haya gustado esta aplicación! 💚
 
 Si quieres ver este u otros proyectos los puedes encontrar en mi porfolio: <https://www.maragil.com> 
