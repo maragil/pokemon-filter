@@ -1,4 +1,4 @@
-# Buscador de <a href="http://pokemon.maragil.com//" target="_blank" rel="noreferrer"><img src="images/hero.png" alt="logo Pokémon" width="120" height="50"/></a>
+# Buscador de <a href="https://pokemon.maragil.com//" target="_blank" rel="noreferrer"><img src="images/hero.png" alt="logo Pokémon" width="120" height="50"/></a>
 
 Con esta aplicación web, desarrollada con [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript), puedes buscar y visualizar Pokémon en función de su tipo (por ejemplo: fuego, agua, planta, etc.)
 
